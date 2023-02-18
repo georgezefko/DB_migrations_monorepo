@@ -1,6 +1,6 @@
 {
   "name": "@georgezefko/energy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Core db package",
   "main": "index.js",
   "repository": "https://github.com/georgezefko/DB_migrations_monorepo",
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@georgezefko/core": "^1.0.0"
+    "@georgezefko/core": "^2.0.0"
   }
 }

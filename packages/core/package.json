@@ -1,11 +1,11 @@
 {
   "name": "@georgezefko/core",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Core db package",
   "main": "index.js",
   "repository": "https://github.com/georgezefko/DB_migrations_monorepo",
   "publishConfig": {
-     "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
+    "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
