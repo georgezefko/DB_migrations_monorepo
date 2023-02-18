@@ -1,0 +1,15 @@
+{
+  "name": "@db/core",
+  "version": "1.0.0",
+  "description": "Core db package",
+  "main": "index.js",
+  "repository": "https://github.com/georgezefko/DB_migrations_monorepo",
+  "publishConfig": {
+     "@db:registry": "https://npm.pkg.github.com/georgezefko"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
