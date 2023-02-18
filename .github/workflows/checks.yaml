@@ -15,7 +15,17 @@ jobs: # A workflow can have multiple jobs
       with:
         fetch-depth: 0 # Checkout all branches and tags
 
-    - name: "Use NodeJS 18" # Setup node using version 14
+    - name: "Use NodeJS 14" # Setup node using version 14
       uses: actions/setup-node@v2 # Public action
       with: 
         node-version: '14'
+    
+    - name: "Setup npm" # Add our registry to npm config
+      run: | # Custom action
+        npm set @georgezefko:registry=https://npm.pkg.github.com/georgezefko
+        npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+    
+    - name: Install dependencies
+      run: | # Install and link dependencies
+        npm ci
+        npx lerna bootstrap
