@@ -1,5 +1,5 @@
 {
-  "name": "@db/core",
+  "name": "@georgezefko/core",
   "version": "1.0.0",
   "description": "Core db package",
   "main": "index.js",
