@@ -1,6 +1,7 @@
 module.exports = function getDate(
   locale = 'en-US',
-  options = { weekday: undefined, year: undefined, month: undefined, day: undefined }
+  options: Intl.DateTimeFormatOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 ) {
   return new Date().toLocaleDateString(locale, options);
 };
+

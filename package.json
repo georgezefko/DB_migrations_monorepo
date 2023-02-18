@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/georgezefko/DB_migrations_monorepo#readme",
   "dependencies": {
+    "@formatjs/intl": "^2.6.5",
+    "@formatjs/intl-datetimeformat": "^6.4.3",
     "lerna": "^6.5.1"
   },
   "workspaces": [
