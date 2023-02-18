@@ -1,3 +1,6 @@
-module.exports = function getDate() {
-    return new Date();
-  };
+module.exports = function getDate(
+  locale = 'en-US',
+  options = { weekday: undefined, year: undefined, month: undefined, day: undefined }
+) {
+  return new Date().toLocaleDateString(locale, options);
+};
