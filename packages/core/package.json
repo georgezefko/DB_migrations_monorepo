@@ -14,5 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "@formatjs/intl": "^2.6.5"
-  }
+  },
+  "gitHead": "e9beea982c632d44e3cf54cdc6e228361f68e94c"
 }

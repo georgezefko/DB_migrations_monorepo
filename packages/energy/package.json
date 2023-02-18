@@ -14,5 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "@georgezefko/core": "^2.0.1"
-  }
+  },
+  "gitHead": "e9beea982c632d44e3cf54cdc6e228361f68e94c"
 }
