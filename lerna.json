@@ -4,5 +4,8 @@
   "version": "independent",
   "packages": [
     "packages/*"
-  ]
+  ],
+  "publishConfig": {
+    "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
+  }
 }
