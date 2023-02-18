@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/georgezefko/DB_migrations_monorepo#readme",
   "dependencies": {
-    "lerna": "^6.0.1"
+    "lerna": "^6.5.1"
   },
   "workspaces": [
     "packages/*"
