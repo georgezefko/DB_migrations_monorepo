@@ -5,7 +5,7 @@
   "packages": [
     "packages/*"
   ],
-  "publishConfig": {
-    "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
+  "publish": {
+    "registry": "https://npm.pkg.github.com/georgezefko"
   }
 }
