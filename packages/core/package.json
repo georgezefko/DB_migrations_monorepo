@@ -9,12 +9,13 @@
   },
   "scripts": {
     "test": "echo TESTS PASSED",
-    "migrate":"node-pg-migrate"
+    "migrate": "node-pg-migrate"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@formatjs/intl": "^2.6.5"
+    "@formatjs/intl": "^2.6.5",
+    "pg-node-migrations": "^0.0.8"
   },
   "gitHead": "e9beea982c632d44e3cf54cdc6e228361f68e94c"
 }

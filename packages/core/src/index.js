@@ -40,8 +40,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-// console.log()
-var migrate = require("node-pg-migrate");
+console.log("trekse mpourdelo");
+var migrate = require("postgres-migrations");
 var pg = require('pg');
 function migration() {
     return __awaiter(this, void 0, void 0, function () {

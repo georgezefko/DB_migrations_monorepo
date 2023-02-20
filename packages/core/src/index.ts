@@ -5,9 +5,9 @@
 //   return new Date().toLocaleDateString(locale, options);
 // };
 
-// console.log()
+console.log("trekse mpourdelo")
 
-const migrate = require("node-pg-migrate")
+const migrate = require("postgres-migrations")
 const pg = require('pg')
 
 async function migration(): Promise<void>{
