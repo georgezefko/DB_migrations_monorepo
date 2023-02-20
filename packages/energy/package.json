@@ -8,7 +8,8 @@
     "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
   },
   "scripts": {
-   "test": "echo TESTS PASSED"
+   "test": "echo TESTS PASSED",
+   "migrate":"node-pg-migrate"
   },
   "author": "",
   "license": "ISC",
