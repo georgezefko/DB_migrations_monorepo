@@ -1,6 +1,6 @@
 {
   "name": "@georgezefko/energy",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Core db package",
   "main": "index.js",
   "repository": "https://github.com/georgezefko/DB_migrations_monorepo",
@@ -8,13 +8,13 @@
     "@georgezefko:registry": "https://npm.pkg.github.com/georgezefko"
   },
   "scripts": {
-   "test": "echo TESTS PASSED",
-   "migrate":"node-pg-migrate"
+    "test": "echo TESTS PASSED",
+    "migrate": "node-pg-migrate"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@georgezefko/core": "^2.0.2"
+    "@georgezefko/core": "^3.0.0"
   },
   "gitHead": "e9beea982c632d44e3cf54cdc6e228361f68e94c"
 }
