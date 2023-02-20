@@ -1,4 +1,4 @@
-var curDate = require('@georgezefko/core');
-(function () {
-    console.log("Date: ".concat(curDate(), " on temp package"));
+const curDate = require('@georgezefko/core');
+(() => {
+    console.log(`Date: ${curDate()} on temp package`);
 })();
